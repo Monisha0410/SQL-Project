@@ -1,1 +1,21 @@
-The Employee Database System is a MySQL-based project designed to manage and streamline various aspects of employment-related data. It includes functionalities for storing and retrieving employee information, managing job postings, and tracking job applications. Built using MySQL Workbench, the project ensures efficient data handling by implementing relational integrity through foreign key constraints. The system allows users to track the status of job applications (e.g., Submitted, In Review, Accepted, Rejected) and supports scalability for future features, such as adding more employee-related data or automating application reviews. The primary goal of the system is to provide an easy-to-use yet robust framework for managing the employment lifecycle, making it ideal for small to medium-sized organizations or as a learning project for database design and SQL query optimization.
+Database Creation:
+Created a database named EmployeeDB to manage employment-related data.
+Table Design:
+Employees Table: Stores employee details with EmployeeID as the primary key.
+Jobs Table: Maintains job postings with JobID as the primary key.
+Applications Table: Tracks job applications using foreign keys EmployeeID and JobID, and includes fields for application date and status.
+Data Insertion:
+Added sample data to the Employees, Jobs, and Applications tables to test the system.
+Query Implementation:
+Wrote SQL queries to:
+Retrieve employee details.
+List job postings.
+Track applications based on their status or job ID.
+Testing:
+Tested the relationships between tables using JOIN queries.
+Validated scalability for adding new features like performance tracking.
+Key Features:
+Ensures relational integrity between tables.
+Provides efficient data retrieval with optimized SQL queries.
+Scalable design for future enhancements.
+
